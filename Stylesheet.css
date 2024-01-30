@@ -1,0 +1,132 @@
+/*CSS Style Sheet*/
+
+
+/*change font color*/
+body {color:#1d1e18;}
+
+
+/*change font size*/
+p { font-size: 20px; font-family:"Arial"}
+
+
+
+/*change font size*/
+
+h1 {font-size: 50px; color:"Arial"}
+
+h2 h3 h4 h5 h6 {font-family:"Arial"; color:#151414;
+background-color:#97847f}
+
+/* change background color*/
+
+body {background-color: #825b4f}
+
+mark {background-color: #5e3d33
+    color:#151414}
+a {color:black}
+
+/* CSS Style Sheet for Gridded Gallery */
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,
+    1fr));
+    grid-gap: 16px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px
+}
+
+
+
+
+
+
+
+
+/* CSS Style sheet for Top Navigation Links */
+
+.top-navigation{;
+text-align: center;}
+
+/* Remove default list styles */
+
+        .top-navigation ul {list-style: none;
+                            padding: 0px
+                            margin: 10px
+                            text-align: center}
+
+
+/* Adjust the spacing between navigation items */
+
+        .top-navigation li {display: inline-block;
+                    background: #5e3d33 }
+
+
+/* Text color of the links */
+/* Smooth color transition on hover */
+
+        .top-navigation a {text-decoration: none;
+                            color:#f7d8b9;
+                            font-weight:lighter;
+                            font-size: 20px;
+                            padding: 20x;
+                            transition: color 0.3s ease;
+                            font-family: "Arial";}
+                
+/*Change color on hover */
+
+.top-navigation a:hover {color: #825b4f;}
+
+
+
+
+
+
+/* CSS Style Sheet */
+
+.right-aligned-title {
+    text-align: center;
+}
+
+
+<style type="text/css">
+
+    #slider {overflow: hidden;}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 5s slider infinite;
+    }
+#slider figure img {
+    float: left;
+    width: 20%;
+    }
+@keyframes slider{
+    0% {left: 0;}
+    20% {left: 0%;}
+    25% {left: -100%}
+    45% {left: -100%}
+    50% {left: -100%}
+    70% {left: -100%}
+    75% {left: -100%}
+    95% {left: -100%}
+    100% {left: -100%}
+}
+</style>
+
+
+
+
+
